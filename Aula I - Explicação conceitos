@@ -10,3 +10,18 @@ https://www.oracle.com/br/database/what-is-database/#:~:text=Um%20banco%20de%20d
 https://irisbh.com.br/zero-rating-uma-medida-de-excecao/#:~:text=Basicamente%2C%20o%20zero%2Drating%20consiste,que%20isso%20implique%20custos%20adicionais.
 https://tecnoblog.net/responde/o-que-e-algoritmo/
 https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-the-cloud/
+
+Aula 2
+
+1-a. A LGPD é a legislação brasileira que regula as atividades de tratamento de dados pessoais e visa proteger os direitos fundamentais de liberdade, privacidade e livre desenvolvimento da personalidade da pessoa natural. 
+Esta lei trouxe a exigência que muitas empresas tivessem que se adaptar novas regras de privacidade de dados. Com os Data Centers não foi diferente, já que esse  deve operar com base nos preceitos da LGPD. Essa instalação física  onde são concentrados equipamentos de computação e redes para coletar, armazenar, processar, distribuir e permitir o acesso a grandes volumes de dados. 
+É importante frisar que apesar de não atuar diretamente no processamento de dados dos usuários e de não exercer a responsabilidade sobre tais informações, cabe aos Data Centers, garantir a proteção física dos ambientes para que a gestão das informações seja segura.
+Por fim, para que um provedor de Data Center se proteja contra danos físicos, que podem influenciar na proteção dos dados de seus clientes, o ideal é investir em redundância, mesmo que os dados sejam guardados na nuvem. Além disso, é importante prezar pela segurança do local, com controles e verificação de acesso. Já contra a proteção de danos virtuais, é necessário dispor de tecnologias de segurança, como a criptografia de dados, firewalls e programas antimalware, que tornam a intercepção de informação mais difícil.
+
+Sob essa lógica, destaca-se, ainda, alguns requisitos fundamentais para assegurar as condições de segurança e as premissas da LGPD para Data Centers:
+
+Mapeamento de quais dados são tratados, por quais áreas e com qual finalidade;
+Atualização de softwares e sistemas de controle de hardware;
+Monitoramento frequente de recursos;
+Política de controle de acesso físico e online;
+Divulgação e treinamento dos colaboradores com relação às boas práticas de TI;
