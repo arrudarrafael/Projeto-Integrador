@@ -1,3 +1,5 @@
+Aula 1 
+
 Nuvem trata-se de uma rede extensa de servidores remotos em todo o mundo. Basicamente é um termo utilizado para descrever uma rede global de servidores, cada um com uma função única. Ademais não é uma entidade física, mas uma vasta rede de servidores remotos ao redor do globo que são conectados e operam como um único ecossistema.
 Algoritmo é o conjunto de instruções e regras que um programa de computador (mas não apenas ele) possui para executar suas funções. é um conjunto de instruções, como uma receita de bolo, constituído de um número finito de passos. Para que os dados sejam processados, há a necessidade de se utilizar uma linguagem de programação, pois os computadores não executam diretamente os algoritmos.
 Zero - rating consiste em uma oferta de acesso móvel a conteúdos e aplicativos previamente determinados pelo provedor ao usuário, sem que isso implique custos adicionais.
@@ -14,9 +16,9 @@ https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-t
 Aula 2
 
 1-a. A LGPD é a legislação brasileira que regula as atividades de tratamento de dados pessoais e visa proteger os direitos fundamentais de liberdade, privacidade e livre desenvolvimento da personalidade da pessoa natural. 
-Esta lei trouxe a exigência que muitas empresas tivessem que se adaptar novas regras de privacidade de dados. Com os Data Centers não foi diferente, já que esse  deve operar com base nos preceitos da LGPD. Essa instalação física  onde são concentrados equipamentos de computação e redes para coletar, armazenar, processar, distribuir e permitir o acesso a grandes volumes de dados. 
+Esta lei trouxe a exigência que muitas empresas tivessem que se adaptar novas regras de privacidade de dados. com os Data Centers não foi diferente, já que esse  deve operar com base nos preceitos da LGPD. Essa instalação física onde são concentrados equipamentos de computação e redes para coletar, armazenar, processar, distribuir e permitir o acesso a grandes volumes de dados. 
 É importante frisar que apesar de não atuar diretamente no processamento de dados dos usuários e de não exercer a responsabilidade sobre tais informações, cabe aos Data Centers, garantir a proteção física dos ambientes para que a gestão das informações seja segura.
-Por fim, para que um provedor de Data Center se proteja contra danos físicos, que podem influenciar na proteção dos dados de seus clientes, o ideal é investir em redundância, mesmo que os dados sejam guardados na nuvem. Além disso, é importante prezar pela segurança do local, com controles e verificação de acesso. Já contra a proteção de danos virtuais, é necessário dispor de tecnologias de segurança, como a criptografia de dados, firewalls e programas antimalware, que tornam a intercepção de informação mais difícil.
+Por fim, para que um provedor de Data Center se proteja contra danos físicos, que podem influenciar na proteção dos dados de seus clientes, o ideal é seguir as premissas da LGPD, investir em redundância, mesmo que os dados sejam guardados na nuvem. Sem contar que é importantíssimo prezar pela segurança do local, com controles e verificação de acesso. Já contra a proteção de danos virtuais, é necessário dispor de tecnologias de segurança, como a criptografia de dados, firewalls e programas antimalware, que tornam a intercepção de informação mais difícil.
 
 Sob essa lógica, destaca-se, ainda, alguns requisitos fundamentais para assegurar as condições de segurança e as premissas da LGPD para Data Centers:
 
@@ -25,3 +27,29 @@ Atualização de softwares e sistemas de controle de hardware;
 Monitoramento frequente de recursos;
 Política de controle de acesso físico e online;
 Divulgação e treinamento dos colaboradores com relação às boas práticas de TI;
+
+Sobre Armazenamento de dados fora do país e a LGPD:
+De forma simples, para a LGPD, a transferência internacional de dados pessoais ocorre sempre que algum dado pessoal (referente a uma pessoa física, via de regra) é enviado, armazenado ou acessado de um país estrangeiro. Assim, o simples armazenamento fora do país já caracteriza a transferência internacional.
+Para que essa transferência internacional seja possível, é necessário que haja uma situação autorizativa trazida pela LGPD. Ao todo, no texto da lei, são 9 hipóteses que permitem essa transferência. As mais importantes são duas: decisão de adequação e cláusulas padronizadas.
+Decisões de adequação são decisões emitidas pela Autoridade Nacional de Proteção de Dados que, na prática, listam uma série de países nos quais a transferência internacional pode ocorrer de forma livre, desde que haja uma garantia, nas legislações desses países, dos direitos dos titulares.
+Atualmente, não existe esta lista de países. Mas, muito provavelmente, pelo rigor da legislação, é provável que, no futuro, os países da Europa sejam considerados adequados e, portanto, a transferência para lá seja menos burocrática.
+Cláusulas padronizadas, de forma simples, são cláusulas elaboradas pela ANPD que trazem uma série de obrigações e que devem constar nos contratos firmados entre as Partes que irão transferir internacionalmente os dados pessoais.
+Contudo, esse mecanismo ainda não foi regulamentado pela ANPD.
+Como se vê, muitos pontos relativos à transferência internacional de dados pessoais ainda não foram definidos pela ANPD.
+Nesta situação, como não há, ainda, regulamentação dada pela ANPD, entende-se que esta não poderia aplicar as sanções previstas, ainda que a lei já esteja totalmente em vigor, o que não implica, entretanto, que a transferência internacional possa ser feita de qualquer maneira.
+Do ponto de vista jurídico: transparência ao titular dos dados pessoais, cláusulas contratuais que preveem que a empresa que armazenará os dados vai tratá-los de forma confidencial e de acordo com o exigido pela legislação, bem como mapeamento dos dados que serão transferidos internacionalmente;
+Do ponto de vista técnico: implementar algumas medidas para proteção da confidencialidade dos dados (criptografia, backup, 2FA, logs para auditoria, limitação de acesso etc).
+Com isso, enquanto pende a regulamentação da ANPD, a transferência internacional poderá ser realizada de forma um pouco mais segura, tanto jurídica quanto tecnicamente.
+
+b. Um formato aberto, em informática, indica uma especificação técnica de domínio público usada para a descrição e armazenamento de dados digitais, livre de restrições legais para seu uso.
+O principal objetivo dos formatos abertos é garantir o acesso aos dados a longo prazo sem inseguranças jurídicas ou restrições devidas às especificações técnicas: em outras palavras, garantir a interoperabilidade. Outro objetivo do formato aberto é incentivar a concorrência, ao invés de permitir que um único fabricante detenha o controle sobre um formato proprietário. São abertos quando qualquer pessoa pode livremente acessá-los, utilizá-los, modificá-los e compartilhá-los para qualquer finalidade, estando sujeito a, no máximo, a exigências que visem preservar sua proveniência e sua abertura”.
+Os formatos proprietários são, na verdade, controlados e definidos por interesses privados. Com o formato proprietário, o usuário corre o risco de perder todas as informações contidas no arquivo caso o software pare de funcionar ou fosse descontinuado, já que não teria outro sistema capaz de processá-las. Todas as informações coletadas nos arquivos públicos (órgãos, instituições, administração, etc.) se tornariam ilegíveis e inutilizáveis em muito pouco tempo. A título de exemplo, o formato MP3 é proprietário mas também aberto porque, se bém patenteado, suas especificações são públicas. Tornar públicas as especificações técnicas é uma maneira de difundir o formato e torná-lo um padrão internacional.
+
+b.1: Exemplos de formatos de arquivos de dados:
+aberto: HTML, JSON (JavaScript Object Notation), RDF, PDF.
+proprietários: MP3, DOC, PPT.
+
+b.2 Os dados públicos são informações abertas sem restrições de privacidade, segurança ou controle de acesso, ou seja, estão livres para serem analisados, modificados e até compartilhados pela web. Diariamente ao navegar pela internet é certo o encontro com dados públicos.
+Existem, ainda, 8 princípios que regem a classificação dos dados públicos, elaborados por um grupo de pesquisadores da Open Government Data, e são eles: (1) Completos; (2) Primários; (3) Atuais; (4) Acessíveis; (5) Processáveis por máquina; (6) Acesso não discriminatório; (7) Formatos não proprietários; e (8) Livres de licenças. Um exemplo de dados públicos são as pesquisas realizadas pelo IBGE que todo mundo já usou como referência para algum projeto. 
+Todavia, essa liberdade vem acompanhada de implicações como privacidade e proteção de dados, para não expor informações pessoais sensíveis que comprometam  a privacidade. A segurança da informação para evitar usos mal-intencioandos e hacking e phishing. Por fim, a qualidade e precisão desses dados, já que desatualizados ou incorretos podem levar a análises errôneas e  decisões inadequadas, afetando a confiabilidade.
+
