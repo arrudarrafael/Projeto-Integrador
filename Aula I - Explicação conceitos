@@ -64,3 +64,13 @@ Esses dados nem sempre estão disponibilizados em formato aberto.  O formato é 
 Todavia, essa liberdade vem acompanhada de implicações como privacidade e proteção de dados, para não expor informações pessoais sensíveis que comprometam  a privacidade. A segurança da informação para evitar usos mal-intencioandos e hacking e phishing. Por fim, a qualidade e precisão desses dados, já que desatualizados ou incorretos podem levar a análises errôneas e  decisões inadequadas, afetando a confiabilidade.
 
 
+Aula 3
+
+1- C++:
+Criado por Bjarne Stroustrup, é como se fosse superset de C que introduz o paradigma de programação orientada a objetos. Essa linguagem é amplamente utilizada no desenvolvimento de softwares onde o desempenho é essencial, como aplicativos gráficos, jogos e sistemas em tempo real.
+Phyton:
+É uma linguagem de programação de alto nível e de propósito generalista. Sua filosofia de design enfatiza a legibilidade do código com a proposta de ser de fácil compreensão com o uso de palavras-chave em inglês. Não costuma utilizar recursos gráficos como chaves e colchetes para delimitar blocos.
+Java:
+Ao contrário do que o nome pode levar a crer, Java e JavaScript não são linguagens que derivam uma da outra ou similares. É uma linguagem de alto nível projetada para ter o menor número possível de dependências de implementação. Dessa forma, os programadores escrevem o código uma única vez e ele pode ser executado em qualquer plataforma que comporte essa linguagem de programação.
+
+a e b. O link a seguir demonstra os códigos realizados, bem como a execução: https://github.com/arrudarrafael/Projeto-Integrador.git
