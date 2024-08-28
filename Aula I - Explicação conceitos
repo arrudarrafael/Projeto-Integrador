@@ -95,6 +95,4 @@ if Idade >= 18:
 else:
     print("Não autorizado a beber álcool.")
 
-https://www.mycompiler.io/view/LDIj8w5YItB
-
-Comprovante de execução:
+Comprovante de execução: https://github.com/arrudarrafael/Projeto-Integrador/blob/main/2.PNG
