@@ -82,7 +82,7 @@ Nomes = ('Luiz', 'Eduardo','Gabriel','Eduardo')
 for Nomes in Nomes:
     print (Nomes)
 
-Comprovante de execução:
+Comprovante de execução: https://github.com/arrudarrafael/Projeto-Integrador/blob/main/1.PNG
 
 1.2) Estrutura de tomada de decisão:
 
