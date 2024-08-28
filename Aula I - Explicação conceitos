@@ -74,3 +74,27 @@ Java:
 Ao contrário do que o nome pode levar a crer, Java e JavaScript não são linguagens que derivam uma da outra ou similares. É uma linguagem de alto nível projetada para ter o menor número possível de dependências de implementação. Dessa forma, os programadores escrevem o código uma única vez e ele pode ser executado em qualquer plataforma que comporte essa linguagem de programação.
 
 a e b. O link a seguir demonstra os códigos realizados, bem como a execução: https://github.com/arrudarrafael/Projeto-Integrador.git
+
+Aula 4
+1. Estrutura de repetição
+
+Nomes = ('Luiz', 'Eduardo','Gabriel','Eduardo')
+for Nomes in Nomes:
+    print (Nomes)
+
+Comprovante de execução:
+
+1.2) Estrutura de tomada de decisão:
+
+#Variável Idade
+Idade = 17
+
+# Condição para verificar a Idade
+if Idade >= 18:
+    print ("Autorizado a beber álcool.")
+else:
+    print("Não autorizado a beber álcool.")
+
+https://www.mycompiler.io/view/LDIj8w5YItB
+
+Comprovante de execução:
