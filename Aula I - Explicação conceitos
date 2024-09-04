@@ -96,3 +96,47 @@ else:
     print("Não autorizado a beber álcool.")
 
 Comprovante de execução: https://github.com/arrudarrafael/Projeto-Integrador/blob/main/2.PNG
+
+
+
+Aula 5
+1 – implemente o algoritmo de ordenação Bubble Sort usando python:
+
+def bubbleSort(alist):
+    for passnum in range(len(alist)-1, 0, -1):
+        houve_troca = False
+        for i in range(passnum):
+            if alist[i] > alist[i+1]:
+                alist[i], alist[i+1] = alist[i+1], alist[i]
+                houve_troca = True
+        if not houve_troca:
+            break
+
+# Exemplo de uso
+alist = [64, 34, 25, 12, 22, 11, 90]
+print("Lista original:", alist)
+bubbleSort(alist)
+print("Lista ordenada:", alist)
+
+Saída do programa:
+Lista original: [64, 34, 25, 12, 22, 11, 90]
+Lista ordenada: [11, 12, 22, 25, 34, 64, 90]
+
+2- implemente um algorítmo que imprima apenas as vogais de uma
+determinada palavra ou frase
+
+def imprimir_vogais(texto):
+    # Definir as vogais
+    vogais = "aeiouAEIOU"
+    # Iterar sobre cada caractere no texto
+    resultado = [letra for letra in texto if letra in vogais]
+    
+    # Imprimir as vogais encontradas
+    print("Vogais encontradas:", " ".join(resultado))
+
+# Exemplo de uso
+frase = "Bom dia Família"
+imprimir_vogais(frase)
+
+Saída do programa:
+Vogais encontradas: o i a a i a
