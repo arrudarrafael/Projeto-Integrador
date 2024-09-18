@@ -303,6 +303,7 @@ Programa precisa saber regra de formacao do arquivo, o que bits significam - Arq
 Formato de arquivos proprietários - a especificacao do formato é controlada por organizacao/empresa que detem direitos de sua utilizacao e pode licenciar de acordo com seus proprios interesses particulares. pode controlar quem vai usar o formato do arquivo! 
 
 Dados publicos devem ser disponibilizados em formato de arquivo aberto, pois facilita acesso a infos, garante perenidade dos atos.
+Esses dados são dados oriundos da atividade estatal ou de empresa de interesse publcio, sem restricao de privacidade    
 
 8- Protocolo Comunicação Aberto - tem suas especificações públicas, garante acesso público. 
 Protocolo Comunicação Proprietário - controlada por empresa que detem direito de uso e licencia de acordo com seu proprio interesse.
@@ -316,10 +317,34 @@ Liberdade economica de desenvolvimento, inovar conforme interesse comercial, lib
 
 O proprietário pode ser construido em cima do aberto.
 
-9- a)
-b)
-c)
+9- a) Sistema operacional é uma camada entre hardware e software, entre computador e outros programas. 
+b) Não.
+c) Pode ser considerado ou não, há decisoes conflitantes. Parte essencial do computador x Diversos sistemas operacionais.
 
-10-
+10-a) Sim,  basta que dado tenha sido tratado aqui, obtido em território nacional.
+b)1. Sim, derrubam conteudos ofensivos, explicitos. Ainda não 100% eficaz.
+2. Não, plataformas tem ferramentas para barrar conteudo, mas não o utilizam corretamente. Estado deveria regulamentar mais, agir.
 
-11-
+
+11-a) for e while.
+b) indentação e o dois pontos ( : )
+c) Soma e concatenação
+d) bloco de comandos que pode ser reutilizado. pode ser identificado como um componente de um programa
+e) def nome (lista de parametros):
+
+f) if/if - else/ if- elif- else
+if idade > 18:
+print ('maior de idade')
+
+if cor == 'azul':
+print ('acertou')
+
+else:
+print (' a cor era azul')
+
+if idade < 18:
+print ('menor de idade')
+elif idade < 60:
+print ('adulto')
+else:
+print ('idoso')
